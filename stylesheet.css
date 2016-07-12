@@ -20,8 +20,30 @@
 	float: left;
 	background-color:#cdcdcd;
 }
+.hovered{
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	background-color:#812732;
+}
 
+h2{	text-align:center;}
 p {
 	text-align:center;
-	color:red;
+	color:black;
+}
+
+.buttons {
+	margin: 20px auto;
+	width: 600px;
+}
+
+.buttons #right {
+	float:right;
+}
+
+.buttons #left {
+	float:left;
 }

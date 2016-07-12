@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	for (var x=0; x<16 ; x++){
 		for (var y=0; y<16; y++) {
@@ -9,10 +10,12 @@ $(document).ready(function(){
 //	$(this).fadeOut(500);
 //	$(this).fadeIn(500);
 //});	
-$('.box').hover(function() {
-	$(this).css("background-color", "yellow");
-}, function(){
-	$(this).css("background-color", "#675399");
-	});
+$('.box').mouseenter(function() {
+	$(this).addClass("hovered");
+ });
+
 });
 
+ function reset(){
+	$(".hovered").removeClass('hovered');
+	}
